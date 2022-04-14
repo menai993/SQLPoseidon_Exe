@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <DatabaseMigration>
+    <Status>Ready</Status>
+    <Database>TestDB</Database>
+    <DatabaseRestoreName>TestDB</DatabaseRestoreName>
+    <From />
+    <To />
+    <Elapsed_x0020_time>0 s</Elapsed_x0020_time>
+    <Migration_x0020_Mode>False</Migration_x0020_Mode>
+    <No_x0020_Recovery>False</No_x0020_Recovery>
+    <backupConn>Data Source = ;Initial Catalog = master;Integrated Security = true;Connection Timeout=30;Application Name=SQL Poseidon</backupConn>
+    <restoreConn>Data Source = ;Initial Catalog = master;Integrated Security = true;Connection Timeout=30;Application Name=SQL Poseidon</restoreConn>
+    <fullDBRestoreQuery> MOVE 'TestDB' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\TestDB.mdf' ,  MOVE 'TestDB_log' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\TestDB_log.ldf' </fullDBRestoreQuery>
+    <id>d03a9577-e7ee-4044-9de5-47a92591ba22</id>
+    <loginterv>0</loginterv>
+  </DatabaseMigration>
+  <DatabaseMigration>
+    <Status>Ready</Status>
+    <Database>TestDB</Database>
+    <DatabaseRestoreName>TestDB</DatabaseRestoreName>
+    <From />
+    <To />
+    <Elapsed_x0020_time>0 s</Elapsed_x0020_time>
+    <Migration_x0020_Mode>False</Migration_x0020_Mode>
+    <No_x0020_Recovery>False</No_x0020_Recovery>
+    <backupConn>Data Source = ;Initial Catalog = master;Integrated Security = true;Connection Timeout=30;Application Name=SQL Poseidon</backupConn>
+    <restoreConn>Data Source = ;Initial Catalog = master;Integrated Security = true;Connection Timeout=30;Application Name=SQL Poseidon</restoreConn>
+    <fullDBRestoreQuery> MOVE 'TestDB' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\TestDB.mdf' ,  MOVE 'TestDB_log' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\TestDB_log.ldf' </fullDBRestoreQuery>
+    <id>9dc8e7c6-839e-4dcc-97d4-58f89a4a52d5</id>
+    <loginterv>0</loginterv>
+  </DatabaseMigration>
+</DocumentElement>

@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <DatabaseMigration>
+    <Status>Ready</Status>
+    <Database>TestDB</Database>
+    <DatabaseRestoreName>TestDB</DatabaseRestoreName>
+    <From>benjaminpc</From>
+    <To>benjaminpc</To>
+    <Elapsed_x0020_time>0 s</Elapsed_x0020_time>
+    <Migration_x0020_Mode>True</Migration_x0020_Mode>
+    <No_x0020_Recovery>False</No_x0020_Recovery>
+    <backupPath>C:\BackupFolder</backupPath>
+    <restorePath>C:\BackupFolder</restorePath>
+    <backupConn>Data Source = benjaminpc;Initial Catalog = master;Integrated Security = true;Connection Timeout=30;Application Name=SQL Poseidon</backupConn>
+    <restoreConn>Data Source = benjaminpc;Initial Catalog = master;Integrated Security = true;Connection Timeout=30;Application Name=SQL Poseidon</restoreConn>
+    <fullDBRestoreQuery> MOVE 'TestDB' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\TestDB_bbb.mdf' ,  MOVE 'TestDB_log' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\TestDB_log_bbb.ldf' </fullDBRestoreQuery>
+    <id>3413d064-ed59-4396-9c3d-bc22e8458a07</id>
+    <loginterv>5000</loginterv>
+    <passiveMigration>False</passiveMigration>
+  </DatabaseMigration>
+</DocumentElement>

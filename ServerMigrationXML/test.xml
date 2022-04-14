@@ -1,0 +1,73 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <Column1>TestDB_LogBackup_20220410.trn</Column1>
+    <BackupPath>C:\BackupFolder\TestDB_LogBackup_20220410.trn</BackupPath>
+    <RestorePath>C:\BackupFolder\TestDB_LogBackup_20220410.trn</RestorePath>
+    <BackupSize>0 MB</BackupSize>
+    <TimeTaken>0 Seconds</TimeTaken>
+    <BackupStartDate>2022-04-10T12:59:03+02:00</BackupStartDate>
+    <BackupType>Transaction Log</BackupType>
+    <RecoveryModel>FULL</RecoveryModel>
+  </Table>
+  <Table>
+    <Column1>TestDB_LogBackup_20220408_150745.trn</Column1>
+    <BackupPath>C:\BackupFolder\TestDB_LogBackup_20220408_150745.trn</BackupPath>
+    <RestorePath>C:\BackupFolder\TestDB_LogBackup_20220408_150745.trn</RestorePath>
+    <BackupSize>0 MB</BackupSize>
+    <TimeTaken>0 Seconds</TimeTaken>
+    <BackupStartDate>2022-04-08T15:07:45+02:00</BackupStartDate>
+    <BackupType>Transaction Log</BackupType>
+    <RecoveryModel>FULL</RecoveryModel>
+  </Table>
+  <Table>
+    <Column1>TestDB_LogBackup_20220408_150738.trn</Column1>
+    <BackupPath>C:\BackupFolder\TestDB_LogBackup_20220408_150738.trn</BackupPath>
+    <RestorePath>C:\BackupFolder\TestDB_LogBackup_20220408_150738.trn</RestorePath>
+    <BackupSize>0 MB</BackupSize>
+    <TimeTaken>0 Seconds</TimeTaken>
+    <BackupStartDate>2022-04-08T15:07:38+02:00</BackupStartDate>
+    <BackupType>Transaction Log</BackupType>
+    <RecoveryModel>FULL</RecoveryModel>
+  </Table>
+  <Table>
+    <Column1>TestDB_LogBackup_20220408_150731.trn</Column1>
+    <BackupPath>C:\BackupFolder\TestDB_LogBackup_20220408_150731.trn</BackupPath>
+    <RestorePath>C:\BackupFolder\TestDB_LogBackup_20220408_150731.trn</RestorePath>
+    <BackupSize>0 MB</BackupSize>
+    <TimeTaken>0 Seconds</TimeTaken>
+    <BackupStartDate>2022-04-08T15:07:31+02:00</BackupStartDate>
+    <BackupType>Transaction Log</BackupType>
+    <RecoveryModel>FULL</RecoveryModel>
+  </Table>
+  <Table>
+    <Column1>TestDB_LogBackup_20220408_150724.trn</Column1>
+    <BackupPath>C:\BackupFolder\TestDB_LogBackup_20220408_150724.trn</BackupPath>
+    <RestorePath>C:\BackupFolder\TestDB_LogBackup_20220408_150724.trn</RestorePath>
+    <BackupSize>0 MB</BackupSize>
+    <TimeTaken>0 Seconds</TimeTaken>
+    <BackupStartDate>2022-04-08T15:07:24+02:00</BackupStartDate>
+    <BackupType>Transaction Log</BackupType>
+    <RecoveryModel>FULL</RecoveryModel>
+  </Table>
+  <Table>
+    <Column1>TestDB_DiffBackup_20220408_150717.bak</Column1>
+    <BackupPath>C:\BackupFolder\TestDB_DiffBackup_20220408_150717.bak</BackupPath>
+    <RestorePath>C:\BackupFolder\TestDB_DiffBackup_20220408_150717.bak</RestorePath>
+    <BackupSize>0 MB</BackupSize>
+    <TimeTaken>0 Seconds</TimeTaken>
+    <BackupStartDate>2022-04-08T15:07:17+02:00</BackupStartDate>
+    <BackupType>Differential</BackupType>
+    <RecoveryModel>FULL</RecoveryModel>
+  </Table>
+  <Table>
+    <Column1>TestDB_FullBackup_20220408_150711.bak</Column1>
+    <BackupPath>C:\BackupFolder\TestDB_FullBackup_20220408_150711.bak</BackupPath>
+    <RestorePath>C:\BackupFolder\TestDB_FullBackup_20220408_150711.bak</RestorePath>
+    <BackupSize>3 MB</BackupSize>
+    <TimeTaken>0 Seconds</TimeTaken>
+    <BackupStartDate>2022-04-08T15:07:11+02:00</BackupStartDate>
+    <BackupType>Full</BackupType>
+    <RecoveryModel>FULL</RecoveryModel>
+  </Table>
+</NewDataSet>
