@@ -1,11 +1,12 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v6.0",
+    "name": ".NETCoreApp,Version=v6.0/win7-x64",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v6.0": {
+    ".NETCoreApp,Version=v6.0": {},
+    ".NETCoreApp,Version=v6.0/win7-x64": {
       "SQLTS/1.0.0": {
         "dependencies": {
           "Microsoft.Management.Infrastructure": "2.0.0",
@@ -25,277 +26,27 @@
           "Microsoft.Management.Infrastructure.Runtime.Win": "2.0.0"
         }
       },
-      "Microsoft.Management.Infrastructure.Runtime.Unix/2.0.0": {
-        "runtimeTargets": {
-          "runtimes/unix/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "rid": "unix",
-            "assetType": "runtime",
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
-          }
-        }
-      },
+      "Microsoft.Management.Infrastructure.Runtime.Unix/2.0.0": {},
       "Microsoft.Management.Infrastructure.Runtime.Win/2.0.0": {
-        "runtimeTargets": {
-          "runtimes/win-arm/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "rid": "win-arm",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win-arm/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "rid": "win-arm",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win-arm64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "rid": "win-arm64",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win-arm64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "rid": "win-arm64",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "rid": "win10-x64",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "rid": "win10-x64",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win10-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "rid": "win10-x86",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win10-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "rid": "win10-x86",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
+        "runtime": {
           "runtimes/win7-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "rid": "win7-x64",
-            "assetType": "runtime",
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "10.0.18362.1"
           },
           "runtimes/win7-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "rid": "win7-x64",
-            "assetType": "runtime",
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win7-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "rid": "win7-x86",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win7-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "rid": "win7-x86",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win8-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "rid": "win8-x64",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win8-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "rid": "win8-x64",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win8-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "rid": "win8-x86",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win8-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "rid": "win8-x86",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win81-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "rid": "win81-x64",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win81-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "rid": "win81-x64",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win81-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {
-            "rid": "win81-x86",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win81-x86/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {
-            "rid": "win81-x86",
-            "assetType": "runtime",
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win-arm/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll": {
-            "rid": "win-arm",
-            "assetType": "native",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win-arm/native/mi.dll": {
-            "rid": "win-arm",
-            "assetType": "native",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win-arm/native/miutils.dll": {
-            "rid": "win-arm",
-            "assetType": "native",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win-arm64/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll": {
-            "rid": "win-arm64",
-            "assetType": "native",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win-arm64/native/mi.dll": {
-            "rid": "win-arm64",
-            "assetType": "native",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win-arm64/native/miutils.dll": {
-            "rid": "win-arm64",
-            "assetType": "native",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win10-x64/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll": {
-            "rid": "win10-x64",
-            "assetType": "native",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win10-x64/native/mi.dll": {
-            "rid": "win10-x64",
-            "assetType": "native",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win10-x64/native/miutils.dll": {
-            "rid": "win10-x64",
-            "assetType": "native",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win10-x86/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll": {
-            "rid": "win10-x86",
-            "assetType": "native",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win10-x86/native/mi.dll": {
-            "rid": "win10-x86",
-            "assetType": "native",
-            "fileVersion": "10.0.18362.1"
-          },
-          "runtimes/win10-x86/native/miutils.dll": {
-            "rid": "win10-x86",
-            "assetType": "native",
-            "fileVersion": "10.0.18362.1"
-          },
+          }
+        },
+        "native": {
           "runtimes/win7-x64/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll": {
-            "rid": "win7-x64",
-            "assetType": "native",
             "fileVersion": "10.0.14394.1000"
           },
           "runtimes/win7-x64/native/mi.dll": {
-            "rid": "win7-x64",
-            "assetType": "native",
             "fileVersion": "10.0.14394.1000"
           },
           "runtimes/win7-x64/native/miutils.dll": {
-            "rid": "win7-x64",
-            "assetType": "native",
             "fileVersion": "10.0.14394.1000"
-          },
-          "runtimes/win7-x86/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll": {
-            "rid": "win7-x86",
-            "assetType": "native",
-            "fileVersion": "10.0.14394.1000"
-          },
-          "runtimes/win7-x86/native/mi.dll": {
-            "rid": "win7-x86",
-            "assetType": "native",
-            "fileVersion": "10.0.14394.1000"
-          },
-          "runtimes/win7-x86/native/miutils.dll": {
-            "rid": "win7-x86",
-            "assetType": "native",
-            "fileVersion": "10.0.14394.1000"
-          },
-          "runtimes/win8-x64/native/mi.dll": {
-            "rid": "win8-x64",
-            "assetType": "native",
-            "fileVersion": "6.2.9200.22812"
-          },
-          "runtimes/win8-x64/native/miutils.dll": {
-            "rid": "win8-x64",
-            "assetType": "native",
-            "fileVersion": "6.2.9200.22812"
-          },
-          "runtimes/win8-x86/native/mi.dll": {
-            "rid": "win8-x86",
-            "assetType": "native",
-            "fileVersion": "6.2.9200.22812"
-          },
-          "runtimes/win8-x86/native/miutils.dll": {
-            "rid": "win8-x86",
-            "assetType": "native",
-            "fileVersion": "6.2.9200.22812"
-          },
-          "runtimes/win81-x64/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll": {
-            "rid": "win81-x64",
-            "assetType": "native",
-            "fileVersion": "6.3.9600.16384"
-          },
-          "runtimes/win81-x64/native/mi.dll": {
-            "rid": "win81-x64",
-            "assetType": "native",
-            "fileVersion": "6.3.9600.16384"
-          },
-          "runtimes/win81-x64/native/miutils.dll": {
-            "rid": "win81-x64",
-            "assetType": "native",
-            "fileVersion": "6.3.9600.16384"
-          },
-          "runtimes/win81-x86/native/Microsoft.Management.Infrastructure.Native.Unmanaged.dll": {
-            "rid": "win81-x86",
-            "assetType": "native",
-            "fileVersion": "6.3.9600.16384"
-          },
-          "runtimes/win81-x86/native/mi.dll": {
-            "rid": "win81-x86",
-            "assetType": "native",
-            "fileVersion": "6.3.9600.16384"
-          },
-          "runtimes/win81-x86/native/miutils.dll": {
-            "rid": "win81-x86",
-            "assetType": "native",
-            "fileVersion": "6.3.9600.16384"
           }
         }
       },
@@ -308,6 +59,23 @@
         }
       },
       "Microsoft.Win32.SystemEvents/6.0.0": {},
+      "runtime.any.System.Collections/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "runtime.any.System.Globalization/4.3.0": {},
+      "runtime.any.System.IO/4.3.0": {},
+      "runtime.any.System.Reflection/4.3.0": {},
+      "runtime.any.System.Reflection.Primitives/4.3.0": {},
+      "runtime.any.System.Resources.ResourceManager/4.3.0": {},
+      "runtime.any.System.Runtime/4.3.0": {
+        "dependencies": {
+          "System.Private.Uri": "4.3.0"
+        }
+      },
+      "runtime.any.System.Text.Encoding/4.3.0": {},
+      "runtime.any.System.Threading.Tasks/4.3.0": {},
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "dependencies": {
           "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
@@ -315,39 +83,29 @@
           "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
         }
       },
-      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-        "runtimeTargets": {
-          "runtimes/win-arm64/native/sni.dll": {
-            "rid": "win-arm64",
-            "assetType": "native",
-            "fileVersion": "4.6.25512.1"
-          }
-        }
-      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {},
       "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-        "runtimeTargets": {
+        "native": {
           "runtimes/win-x64/native/sni.dll": {
-            "rid": "win-x64",
-            "assetType": "native",
             "fileVersion": "4.6.25512.1"
           }
         }
       },
-      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-        "runtimeTargets": {
-          "runtimes/win-x86/native/sni.dll": {
-            "rid": "win-x86",
-            "assetType": "native",
-            "fileVersion": "4.6.25512.1"
-          }
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {},
+      "runtime.win.System.Diagnostics.Debug/4.3.0": {},
+      "runtime.win.System.Runtime.Extensions/4.3.0": {
+        "dependencies": {
+          "System.Private.Uri": "4.3.0"
         }
       },
+      "runtime.win7.System.Private.Uri/4.3.0": {},
       "System.CodeDom/6.0.0": {},
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
-          "System.Runtime": "4.3.0"
+          "System.Runtime": "4.3.0",
+          "runtime.any.System.Collections": "4.3.0"
         }
       },
       "System.Collections.Immutable/1.3.1": {
@@ -375,21 +133,7 @@
           "runtime.native.System.Data.SqlClient.sni": "4.7.0"
         },
         "runtime": {
-          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
-            "assemblyVersion": "4.6.1.3",
-            "fileVersion": "4.700.21.41603"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
-            "rid": "unix",
-            "assetType": "runtime",
-            "assemblyVersion": "4.6.1.3",
-            "fileVersion": "4.700.21.41603"
-          },
           "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
-            "rid": "win",
-            "assetType": "runtime",
             "assemblyVersion": "4.6.1.3",
             "fileVersion": "4.700.21.41603"
           }
@@ -399,7 +143,8 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
-          "System.Runtime": "4.3.0"
+          "System.Runtime": "4.3.0",
+          "runtime.win.System.Diagnostics.Debug": "4.3.0"
         }
       },
       "System.DirectoryServices/6.0.0": {
@@ -416,15 +161,7 @@
           "System.Security.AccessControl": "6.0.0"
         },
         "runtime": {
-          "lib/net6.0/System.DirectoryServices.AccountManagement.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        },
-        "runtimeTargets": {
           "runtimes/win/lib/net6.0/System.DirectoryServices.AccountManagement.dll": {
-            "rid": "win",
-            "assetType": "runtime",
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
@@ -432,27 +169,7 @@
       },
       "System.DirectoryServices.Protocols/6.0.0": {
         "runtime": {
-          "lib/net6.0/System.DirectoryServices.Protocols.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/linux/lib/net6.0/System.DirectoryServices.Protocols.dll": {
-            "rid": "linux",
-            "assetType": "runtime",
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          },
-          "runtimes/osx/lib/net6.0/System.DirectoryServices.Protocols.dll": {
-            "rid": "osx",
-            "assetType": "runtime",
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          },
           "runtimes/win/lib/net6.0/System.DirectoryServices.Protocols.dll": {
-            "rid": "win",
-            "assetType": "runtime",
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
@@ -467,7 +184,8 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
-          "System.Runtime": "4.3.0"
+          "System.Runtime": "4.3.0",
+          "runtime.any.System.Globalization": "4.3.0"
         }
       },
       "System.IO/4.3.0": {
@@ -476,7 +194,8 @@
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0",
-          "System.Threading.Tasks": "4.3.0"
+          "System.Threading.Tasks": "4.3.0",
+          "runtime.any.System.IO": "4.3.0"
         }
       },
       "System.Linq/4.3.0": {
@@ -493,15 +212,7 @@
           "System.CodeDom": "6.0.0"
         },
         "runtime": {
-          "lib/net6.0/System.Management.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        },
-        "runtimeTargets": {
           "runtimes/win/lib/net6.0/System.Management.dll": {
-            "rid": "win",
-            "assetType": "runtime",
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
@@ -509,20 +220,29 @@
       },
       "System.Memory/4.5.2": {},
       "System.Numerics.Vectors/4.5.0": {},
+      "System.Private.Uri/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "runtime.win7.System.Private.Uri": "4.3.0"
+        }
+      },
       "System.Reflection/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.IO": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
-          "System.Runtime": "4.3.0"
+          "System.Runtime": "4.3.0",
+          "runtime.any.System.Reflection": "4.3.0"
         }
       },
       "System.Reflection.Primitives/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
-          "System.Runtime": "4.3.0"
+          "System.Runtime": "4.3.0",
+          "runtime.any.System.Reflection.Primitives": "4.3.0"
         }
       },
       "System.Resources.ResourceManager/4.3.0": {
@@ -531,20 +251,23 @@
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Globalization": "4.3.0",
           "System.Reflection": "4.3.0",
-          "System.Runtime": "4.3.0"
+          "System.Runtime": "4.3.0",
+          "runtime.any.System.Resources.ResourceManager": "4.3.0"
         }
       },
       "System.Runtime/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0"
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "runtime.any.System.Runtime": "4.3.0"
         }
       },
       "System.Runtime.Extensions/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
-          "System.Runtime": "4.3.0"
+          "System.Runtime": "4.3.0",
+          "runtime.win.System.Runtime.Extensions": "4.3.0"
         }
       },
       "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
@@ -571,7 +294,8 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
-          "System.Runtime": "4.3.0"
+          "System.Runtime": "4.3.0",
+          "runtime.any.System.Text.Encoding": "4.3.0"
         }
       },
       "System.Threading/4.3.0": {
@@ -584,7 +308,8 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
-          "System.Runtime": "4.3.0"
+          "System.Runtime": "4.3.0",
+          "runtime.any.System.Threading.Tasks": "4.3.0"
         }
       },
       "System.Windows.Extensions/6.0.0": {
@@ -727,6 +452,69 @@
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
     },
+    "runtime.any.System.Collections/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-23g6rqftKmovn2cLeGsuHUYm0FD7pdutb0uQMJpZ3qTvq+zHkgmt6J65VtRry4WDGYlmkMa4xDACtaQ94alNag==",
+      "path": "runtime.any.system.collections/4.3.0",
+      "hashPath": "runtime.any.system.collections.4.3.0.nupkg.sha512"
+    },
+    "runtime.any.System.Globalization/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sMDBnad4rp4t7GY442Jux0MCUuKL4otn5BK6Ni0ARTXTSpRNBzZ7hpMfKSvnVSED5kYJm96YOWsqV0JH0d2uuw==",
+      "path": "runtime.any.system.globalization/4.3.0",
+      "hashPath": "runtime.any.system.globalization.4.3.0.nupkg.sha512"
+    },
+    "runtime.any.System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SDZ5AD1DtyRoxYtEcqQ3HDlcrorMYXZeCt7ZhG9US9I5Vva+gpIWDGMkcwa5XiKL0ceQKRZIX2x0XEjLX7PDzQ==",
+      "path": "runtime.any.system.io/4.3.0",
+      "hashPath": "runtime.any.system.io.4.3.0.nupkg.sha512"
+    },
+    "runtime.any.System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hLC3A3rI8jipR5d9k7+f0MgRCW6texsAp0MWkN/ci18FMtQ9KH7E2vDn/DH2LkxsszlpJpOn9qy6Z6/69rH6eQ==",
+      "path": "runtime.any.system.reflection/4.3.0",
+      "hashPath": "runtime.any.system.reflection.4.3.0.nupkg.sha512"
+    },
+    "runtime.any.System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nrm1p3armp6TTf2xuvaa+jGTTmncALWFq22CpmwRvhDf6dE9ZmH40EbOswD4GnFLrMRS0Ki6Kx5aUPmKK/hZBg==",
+      "path": "runtime.any.system.reflection.primitives/4.3.0",
+      "hashPath": "runtime.any.system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
+    "runtime.any.System.Resources.ResourceManager/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lxb89SMvf8w9p9+keBLyL6H6x/TEmc6QVsIIA0T36IuyOY3kNvIdyGddA2qt35cRamzxF8K5p0Opq4G4HjNbhQ==",
+      "path": "runtime.any.system.resources.resourcemanager/4.3.0",
+      "hashPath": "runtime.any.system.resources.resourcemanager.4.3.0.nupkg.sha512"
+    },
+    "runtime.any.System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fRS7zJgaG9NkifaAxGGclDDoRn9HC7hXACl52Or06a/fxdzDajWb5wov3c6a+gVSlekRoexfjwQSK9sh5um5LQ==",
+      "path": "runtime.any.system.runtime/4.3.0",
+      "hashPath": "runtime.any.system.runtime.4.3.0.nupkg.sha512"
+    },
+    "runtime.any.System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+ihI5VaXFCMVPJNstG4O4eo1CfbrByLxRrQQTqOTp1ttK0kUKDqOdBSTaCB2IBk/QtjDrs6+x4xuezyMXdm0HQ==",
+      "path": "runtime.any.system.text.encoding/4.3.0",
+      "hashPath": "runtime.any.system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "runtime.any.System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OhBAVBQG5kFj1S+hCEQ3TUHBAEtZ3fbEMgZMRNdN8A0Pj4x+5nTELEqL59DU0TjKVE6II3dqKw4Dklb3szT65w==",
+      "path": "runtime.any.system.threading.tasks/4.3.0",
+      "hashPath": "runtime.any.system.threading.tasks.4.3.0.nupkg.sha512"
+    },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -754,6 +542,27 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win.System.Diagnostics.Debug/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hHHP0WCStene2jjeYcuDkETozUYF/3sHVRHAEOgS3L15hlip24ssqCTnJC28Z03Wpo078oMcJd0H4egD2aJI8g==",
+      "path": "runtime.win.system.diagnostics.debug/4.3.0",
+      "hashPath": "runtime.win.system.diagnostics.debug.4.3.0.nupkg.sha512"
+    },
+    "runtime.win.System.Runtime.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RkgHVhUPvzZxuUubiZe8yr/6CypRVXj0VBzaR8hsqQ8f+rUo7e4PWrHTLOCjd8fBMGWCrY//fi7Ku3qXD7oHRw==",
+      "path": "runtime.win.system.runtime.extensions/4.3.0",
+      "hashPath": "runtime.win.system.runtime.extensions.4.3.0.nupkg.sha512"
+    },
+    "runtime.win7.System.Private.Uri/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q+IBgaPYicSQs2tBlmXqbS25c/JLIthWrgrpMwxKSOobW/OqIMVFruUGfuaz4QABVzV8iKdCAbN7APY7Tclbnw==",
+      "path": "runtime.win7.system.private.uri/4.3.0",
+      "hashPath": "runtime.win7.system.private.uri.4.3.0.nupkg.sha512"
     },
     "System.CodeDom/6.0.0": {
       "type": "package",
@@ -866,6 +675,13 @@
       "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "System.Private.Uri/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I4SwANiUGho1esj4V4oSlPllXjzCZDE+5XXso2P03LW2vOda2Enzh8DWOxwN6hnrJyp314c7KuVu31QYhRzOGg==",
+      "path": "system.private.uri/4.3.0",
+      "hashPath": "system.private.uri.4.3.0.nupkg.sha512"
     },
     "System.Reflection/4.3.0": {
       "type": "package",
